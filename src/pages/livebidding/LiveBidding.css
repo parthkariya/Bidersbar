@@ -1,0 +1,130 @@
+.livebid_main_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  max-width: 1140px;
+  margin: 1rem auto;
+}
+
+.livebid_head_text_wrapp {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+
+  margin: 2rem 0px;
+  padding: 0px 1rem;
+}
+
+.bidding_date_wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 1rem;
+}
+
+.bidding_dates_cubes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 1rem 0px;
+  width: 400px;
+  /* overflow-x: scroll; */
+}
+
+.bidding_dates_single_cube {
+  width: 59px;
+  height: 72px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* border: 1px solid var(--color-light-gray); */
+  border-radius: 16px;
+}
+
+.date_cube_name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px !important;
+}
+
+.date_cube_no {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px !important;
+}
+
+/* available timing  */
+.available_timing_wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.available_timing_cubes_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 1rem 0px;
+  gap: 1rem;
+}
+
+.available_timing_single_cube {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 16px;
+
+  height: 36px;
+
+  mix-blend-mode: multiply;
+
+  /* border: 1px solid #979797; */
+  border-radius: 16px;
+}
+
+.siting_single_cube {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 22px;
+  height: 36px;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+
+/* available timing  */
+
+@media (max-width: 720px) {
+  .bidding_dates_cubes {
+    gap: 15px;
+    overflow-x: scroll;
+    /* padding: 0 15px; */
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 400px;
+  }
+}

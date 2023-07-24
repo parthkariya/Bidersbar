@@ -1,0 +1,12 @@
+.cart_confirm_main_wrapp {
+  max-width: 348px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}

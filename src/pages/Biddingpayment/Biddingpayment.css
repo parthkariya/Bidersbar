@@ -1,0 +1,117 @@
+.biddingconformation-sec {
+  width: 100%;
+  height: 100%;
+}
+
+.biddingpayment-con {
+  max-width: 1140px;
+  margin: 25px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+.biddingconformation-head {
+  font-size: 24px;
+  color: var(--color-primary-dark);
+  text-align: center;
+  font-weight: 600;
+}
+
+.inp-biddingpayment {
+  padding: 16px 14px 16px 14px;
+  border: 1px solid var(--color-primary-gary);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.biddingpayment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 500px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.lbl-biddingpayment {
+  color: var(--color-primary-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.txt-biddingpayment {
+  color: var(--color-primary-gary);
+  font-size: 12px;
+  font-weight: 500;
+  /* text-align: center; */
+}
+
+.btn-width {
+  width: 500px;
+}
+
+.txt-amount-biddingpayment {
+  color: var(--color-light-green);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.inp-biddingpayment::placeholder {
+  color: var(--color-primary-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: var(--font-base);
+}
+
+.add_amount_wrapp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  /* height: 32px; */
+  width: 100%;
+}
+
+.add_amount_single_card {
+  box-sizing: border-box;
+
+  display: flex;
+  padding: 8px 24px;
+
+  border: 1px solid var(--color-light-green);
+
+  box-shadow: 0px 16px 32px rgba(26, 42, 52, 0.05);
+  border-radius: 8px;
+  color: var(--color-light-gray2);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+}
+
+/* @media screen and (max-width: 420px) {
+    .biddingconformation-icon {
+        width: 125px;
+        height: 125px;
+    }
+
+    .biddingconformation-txt {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+} */
+
+@media screen and (max-width: 500px) {
+  .biddingpayment-form {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -1,0 +1,26 @@
+.pagehero_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100vw; */
+  max-width: 1140px;
+  margin: 1rem auto;
+  top: 0px;
+  z-index: 999;
+}
+
+.pagehero_backbutton {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  color: #979797;
+
+  cursor: pointer;
+}
+
+.pagehero_name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}

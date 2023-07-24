@@ -1,0 +1,129 @@
+.home_main_wrapp {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.home_hello_part {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 2rem;
+  gap: 0.5rem;
+}
+
+/* des card */
+
+/* sidebar menu */
+
+.sidebar_main_wrapp {
+  position: fixed;
+  z-index: 99;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.2s linear ease-in-out;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  background: var(--color-white);
+}
+
+.sidemenu_profile_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin: 2rem 1rem;
+}
+
+.menu_profile_img {
+  width: 52px;
+  height: 52px;
+  border-radius: 52px;
+  border: 2px solid var(--color-dark-blue);
+  overflow: hidden;
+}
+
+.menu_profile_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.menu_profile_name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-height: 55px;
+}
+
+.menu_btn_wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 1rem;
+  gap: 8px;
+}
+
+.menu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px;
+
+  width: 100%;
+  height: 64px;
+
+  background: var(--color-white);
+  /* background: #d7fae6; */
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.menu_right_arrow {
+  stroke: var(--color-light-gray);
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+}
+
+.color_gray {
+  color: var(--color-light-gray) !important;
+}
+
+.menu_btn:hover,
+.menu_btn:active {
+  background: #d7fae6;
+}
+
+.menu_right_arrow:hover,
+.menu_right_arrow:active,
+.color_gray:hover,
+.color_gray:active {
+  stroke: var(--color-dark-blue);
+  color: var(--color-dark-blue);
+}
+
+/* sidebar menu */
+
+@media (min-width: 720px) {
+  .dis_card_main_wrapp {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .des_card,
+  .sidebar_main_wrapp {
+    max-width: 400px;
+  }
+}

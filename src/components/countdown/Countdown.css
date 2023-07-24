@@ -1,0 +1,56 @@
+.countdown_main_wrapp {
+  margin: 32px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.count_card {
+  background: linear-gradient(76.14deg,
+      rgba(44, 223, 83, 0.61) 18.99%,
+      #2cdfd4 79.4%);
+  border-radius: 8px;
+  width: 100%;
+  height: 92px;
+  margin: 0.5rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 400px;
+  /* gap: 2rem; */
+}
+
+.count_time_wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.count_time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* or 48px */
+
+  /* primary/white */
+
+  color: #ffffff;
+}
+
+.count_dobbledote {
+  color: var(--color-white);
+  font-size: 44px;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1150px) {
+  .countdown_main_wrapp {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

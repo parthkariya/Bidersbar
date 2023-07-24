@@ -1,0 +1,161 @@
+.myorder-con {
+  max-width: 365px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.myorder-card {
+  box-shadow: 0px 16px 32px rgb(26 42 52 / 5%);
+  border-radius: 16px;
+  background-color: var(--color-white);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 15px;
+  justify-content: space-around;
+  max-width: 365px;
+  margin: 0 auto;
+}
+
+.myorder-namebox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.myorder-detailbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.myorder-amount {
+  color: var(--color-white);
+}
+
+.myorder-food-info {
+  margin-right: 20px;
+}
+
+.myorder-amount {
+  background-color: var(--color-light-green);
+  border: 1px solid var(--color-light-green);
+  /* shadows/dark2 */
+
+  box-shadow: 0px 16px 32px rgba(26, 42, 52, 0.05);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  /* width: 60px; */
+  height: 25px;
+  padding: 5px;
+}
+
+.myorder-minus-plus-icon {
+  /* color: var(--color-white); */
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
+
+.myorder-card-amuntpart {
+  /* justify-self: end; */
+}
+
+.myorder-amount-line {
+  /* background-color: var(--color-white); */
+  background-color: rgba(255, 255, 255, 1);
+  height: 22px;
+  width: 1px;
+}
+
+.mr-left {
+  margin-left: 5px;
+}
+
+.mx-width-btn {
+  margin-top: 15px;
+}
+
+.myorder-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.clear-cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1rem auto;
+  max-width: 90vw;
+}
+
+.place_order_btn {
+  position: fixed;
+  width: 92%;
+  height: 60px;
+  bottom: 7px;
+  right: 16px;
+  text-align: center;
+  max-width: 345px;
+}
+
+.place_order_model_wrapp {
+  background: rgba(0, 0, 0, 0.25);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place_order_single_model {
+  background: #ffffff;
+  border-radius: 16px;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  height: 212px;
+  width: 358px;
+  padding: 2rem;
+  z-index: 11;
+  gap: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.place_order_btn_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.place-order-btn {
+  width: 140px;
+  height: 56px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .myorder-con {
+    min-height: 80vh;
+  }
+}
+
+@media (min-width: 720px) {
+  .btn-mw {
+    min-width: 98vw !important;
+    right: 1%;
+  }
+}

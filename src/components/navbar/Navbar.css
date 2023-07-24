@@ -1,0 +1,22 @@
+.nav_main_wrapp {
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between ;
+    width: 100vw;
+    max-width: 1140px;
+    margin: 10px auto;
+    top: 0px;
+}
+
+.menu_side {
+    width: 24px;
+    height: 16px;
+    margin: 0 10px;
+    color: #979797;
+}
+.logo {
+    font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+}

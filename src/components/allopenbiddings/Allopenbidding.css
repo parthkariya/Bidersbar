@@ -1,0 +1,134 @@
+.allopenbidding-sec {
+  width: 100%;
+  height: 100%;
+}
+
+.allopenbidding-con {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.allopenbidding-head {
+  text-align: center;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.allopenbidding-txt {
+
+  text-align: center;
+
+}
+
+.allopenbidding-sec-heading-con {
+  max-width: 550px;
+  margin: 0 auto;
+  /* margin-bottom: 40px; */
+}
+
+.allopenbidding-events-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.allbidders-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* width: 250px; */
+  /* height: 250px; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+  border-radius: 8px;
+}
+
+.allbidders-img-box {
+  max-width: 250px;
+  height: 150px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.allbidders-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.allbidders-part {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.allbidders-event-name {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.allbidders-event-date {
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Nwe added css */
+
+/* Media Query */
+
+@media screen and (max-width: 1150px) {
+  .allopenbidding-events-cards {
+    /* padding-left: 15px; */
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .allbidders-card {
+    max-width: 150px;
+  }
+
+  .allopenbidding-sec-heading-con {
+    margin-top: 30px;
+  }
+
+  .all-card-page-bidders-cards {
+    overflow-x: unset;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* .allbidders-card {
+        max-width: 165px;
+        max-height: 200px;
+        gap: 10px;
+    } */
+
+  .allopenbidding-events-cards {
+    gap: 20px;
+    row-gap: 25px;
+  }
+
+  .allopenbidding-txt {
+    /* font-size: 14px; */
+  }
+
+  .allbidders-event-name {
+    margin-bottom: 0px;
+  }
+
+  .allbidders-event-name {
+    font-size: 12px;
+  }
+}

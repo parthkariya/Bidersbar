@@ -1,0 +1,134 @@
+.howitworkstep-sec {
+    width: 100%;
+    height: 100%;
+}
+
+.howitworkstep-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.howitworkstep-flex {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.howitworkstep-icon-sec {
+    width: 125px;
+    height: 125px;
+    border-radius: 12px;
+    background-color: var(--color-light-green);
+    align-self: flex-end;
+    position: relative;
+}
+
+.howitworkstep-flex-part {
+    max-width: 400px;
+}
+
+.howitworkstep-flex-part-second {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+.howitworkstep-name {
+    font-size: 20px;
+    color: var(--color-dark-blue);
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.howitworkstep-number {
+    font-size: 86px;
+    color: var(--number-step);
+    font-weight: 600;
+}
+
+.howitworkstep-txt {
+    font-size: 16px;
+    color: var(--color-dark-blue);
+}
+
+.howitworkstep-icon {
+    font-size: 40px;
+    color: var(--color-white);
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+/* Media Query */
+@media screen and (max-width: 1140px) {
+
+    .howitworkstep-con {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+    .howitworkstep-flex-part {
+        max-width: 300px;
+    }
+
+    .howitworkstep-flex-part-second {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .howitworkstep-flex-part {
+        max-width: 250px;
+    }
+
+    .howitworkstep-flex-part-second {
+        max-width: 250px;
+    }
+
+    .howitworkstep-icon-sec {
+        width: 80px;
+        height: 80px;
+    }
+
+    .howitworkstep-icon {
+        top: 25%;
+        left: 25%;
+    }
+
+    .howitworkstep-number {
+        font-size: 74px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .howitworkstep-number {
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .howitworkstep-txt {
+        font-size: 12px;
+    }
+
+
+    .howitworkstep-icon-sec {
+        width: 60px;
+        height: 60px;
+    }
+
+    .howitworkstep-icon {
+        font-size: 30px;
+    }
+}

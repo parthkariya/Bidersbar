@@ -1,0 +1,33 @@
+.payment_main_wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1140px;
+  margin: 0 1rem;
+  min-height: 80vh;
+}
+
+.payment_view_btn {
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+
+  background: var(--color-light-green);
+
+  box-shadow: 0px 16px 32px #39e6811a;
+  border-radius: 8px;
+  color: var(--color-white);
+
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
